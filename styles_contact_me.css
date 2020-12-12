@@ -1,0 +1,96 @@
+/* Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body{ 
+background: #DFF5FD;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Rubrik', sans-serif;
+  color: #494949;
+}
+a:hover {
+  background: #ADD8E6;
+  transition: all 1s  ease-in;}
+
+h1{
+
+font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+  color: #494949;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-style: regular;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+/* navigation bar */
+
+nav {
+
+  background: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  
+}
+.tuga_luvs{
+
+  margin: 1em;
+}
+nav ul {
+
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  }
+nav ul li {
+
+  float: left;
+  width: 16%;
+  }
+
+.contact_me{
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.tag_line{
+margin: 1em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.tag_line_text{
+  margin: 1em;
+}
+.footer{
+  background: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
